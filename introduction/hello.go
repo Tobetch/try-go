@@ -13,5 +13,12 @@ import (
 // main関数の宣言
 // Goプログラムはmainパッケージのmain関数から実行される
 func main() {
+	variousLanguages()
+}
+
+func variousLanguages() {
 	fmt.Println("Hello, world") //Javaにおける"System.out.println"メソッド
+	fmt.Println("你好，世界")
+	fmt.Println("Здравствуй, мир")
+	fmt.Println("Hola, mundo")
 }
