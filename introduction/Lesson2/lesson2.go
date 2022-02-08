@@ -6,6 +6,7 @@ import (
 
 func main() {
 	mars()
+	tryPrintf()
 }
 
 func mars() {
@@ -13,4 +14,8 @@ func mars() {
 	const age = 30 * 365 / 687
 	fmt.Print("火星の表面では、とべの体重は", weight, "Kgに、")
 	fmt.Println("年齢は", age, "歳になるでしょう。")
+}
+
+func tryPrintf() {
+	fmt.Printf("火星の表面では、とべの体重はだいたい%dKgになります。", 24)
 }
