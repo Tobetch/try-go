@@ -2,11 +2,14 @@ package main
 
 import (
 	"fmt"
+	"math/rand"
 )
 
 func main() {
 	mars()
 	lightspeed()
+	shortcut()
+	makeRandomNum()
 }
 
 func mars() {
@@ -36,4 +39,11 @@ func shortcut() {
 	age += 1
 	age++
 	// ++ageはサポートしない
+}
+
+func makeRandomNum() {
+	var num = rand.Intn(10) + 1
+	fmt.Println(num)
+	num = rand.Intn(10) + 1
+	fmt.Println(num)
 }
